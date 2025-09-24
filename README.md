@@ -69,4 +69,5 @@ python generate.py   --device 1   --length 100   --tokenizer_path cache/vocab_sm
 4.Reference
 --
 1.模型搭建 https://github.com/lvfinn/chinese-GPT2-start-from-zero
+
 2.语料数据 https://github.com/brightmart/nlp_chinese_corpus
