@@ -1,0 +1,17 @@
+# 1. 忽略 tokenized 文件夹
+data/tokenized/
+
+# 2. 忽略 unused_data 文件夹
+data/unused_data/
+
+# 允许 final_model/config.json 被跟踪
+!model/final_model/config.json
+
+#  final_model/pytorch_model.bin 文件较大，忽略它 
+model/final_model/pytorch_model.bin
+
+# 3. 忽略 model 目录下所有名字里包含 model_epoch 的文件/文件夹
+model/model_epoch*  
+
+# 3. 忽略 tensorboard_summary 
+tensorboard_summary/*
