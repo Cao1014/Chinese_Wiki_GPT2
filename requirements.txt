@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c2a9b45cead0d18969bc08ad80d213fa95d6b61c85dac8626d13d664aa941429
-size 90
+transformers==2.1.1
+torch
+numpy
+tqdm
+scikit-learn
+keras
+tensorboard>=2.11.0
+future
+thulac
